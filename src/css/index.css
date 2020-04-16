@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.page-content {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+.about-page{
+  padding-top: 3rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.about-page span{
+ font-weight: bold;
+}
+
+.about-page a{
+  font-weight: bold;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.top-home{
+  padding-top: 2.5rem;
+}
+
+.title-home {
+  font-size: 2.2rem !important;
+  border: none !important;
+  text-align: center;
+}
+
+.title-home span{
+  font-weight: bold;
+}
+
+.title-home input {
+  font-weight: bold;
+  font-size: 2.2rem !important;
+  max-width: 280px;
+  margin-right: 20px !important;
+  min-width: 130px;
+}
+
+.title-home button{
+  background-color: #313131;
+}
+
+.features{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 1.2rem !important;
+  line-height: 2rem;
+}
+
+.features span{
+  font-weight: bold;
+}

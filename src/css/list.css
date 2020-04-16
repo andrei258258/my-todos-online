@@ -1,0 +1,9 @@
+.collection-item .collection-item-description{
+  word-break:break-all;
+}
+
+.collection-item .collection-item-description .icons span{
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
