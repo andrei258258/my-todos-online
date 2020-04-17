@@ -6,11 +6,11 @@ const About = () => {
     return (
       <div className="container about-page">
         <span>Thanks for using My Todos Online. The Simplest To Do App of the word!<br /></span>
-        You can see the source code at my <a target="_blank" href="">Github</a> <br />
-        Created by <a target="_blank" href="">Andrei Donati</a> <br />
-        My Todos Online is powered by React. <br />
-        We are inspered by <a target="_blank" href="dontpad.com">dontpad.com</a> <br />
-        You can support the project giving me a star on Github or with a
+        Created by <a target="_blank" href="https://www.linkedin.com/in/andrei-donati/">Andrei Donati</a> <br />
+        You can see the source code at my <a target="_blank" href="https://github.com/andrei258258/my-todos-online">Github</a> <br />
+        My Todos Online is inspered by <a target="_blank" href="dontpad.com">dontpad.com</a> <br />
+        Support the project: <br />
+        <a className="github-button" href="https://github.com/andrei258258/my-todos-online" data-icon="octicon-star" data-size="large" aria-label="Star andrei258258/my-todos-online on GitHub">Star on Github</a>
         <div className="paypal-btn">
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick" />
